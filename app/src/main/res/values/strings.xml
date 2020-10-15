@@ -1,5 +1,21 @@
 <resources>
     <string name="app_name">AgroCampo</string>
+
+    <string name="Blogin">Login</string>
+    <string name="Bregistro">Registrate</string>
+    <string name="Email">Digite Email</string>
+    <string name="Contra">Digite Contraseña</string>
+    <string name="EmailR">Digite Email</string>
+    <string name="ContraR">Digite Contraseña</string>
+    <string name="cc">Digite Cédula</string>
+    <string name="Nombre">Digite Nombre</string>
+    <string name="Profesion">Digite Profesión</string>
+    <string name="Celular">Digite Celular</string>
+    <string name="Registar">Registrar</string>
+    <string name="Escuchar">Escuchando Pregunta</string>
+    <string name="Responder">Preparando Respuesta</string>
+
+
     <string name="title_activity_inicio">Inicio</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
