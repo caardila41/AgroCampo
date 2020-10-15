@@ -7,41 +7,52 @@
     tools:context=".RegistrarCorreo">
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/ETpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="@string/Contra"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETemail" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/ETpass2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="@string/ContraR"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETpass" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/ETemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="116dp"
         android:ems="10"
         android:hint="@string/Email"
         android:inputType="textEmailAddress"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="118dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="Registrar"
         android:text="@string/Bregistro"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="394dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETpass2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,7 @@
     <string name="Email">Digite Email</string>
     <string name="Contra">Digite Contraseña</string>
     <string name="EmailR">Digite Email</string>
-    <string name="ContraR">Digite Contraseña</string>
+    <string name="ContraR">Confirme Contraseña</string>
     <string name="cc">Digite Cédula</string>
     <string name="Nombre">Digite Nombre</string>
     <string name="Profesion">Digite Profesión</string>

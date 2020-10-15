@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void Registrate (View view ){
-        Intent registrate= new Intent(this,Registro.class);//Generar instancia entre pantallar
+        Intent registrate= new Intent(this,RegistrarCorreo.class);//Generar instancia entre pantallar
         //Envio de info entre pantallas
         startActivity(registrate);//Inicializar objeto
     }
